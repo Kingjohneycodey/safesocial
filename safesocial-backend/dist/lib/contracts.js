@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.postRegistryContract = exports.dataVaultContract = exports.provider = void 0;
+const ethers_1 = require("ethers");
+const postRegistry = require("../abis/PostRegistry.json");
+const dataVault = require("../abis/DataVault.json");
+const postRegistryAbi = postRegistry.abi;
+const dataVaultAbi = dataVault.abi;
+// export const provider = new ethers.JsonRpcProvider(process.env.BLOCKDAG_RPC_URL, 1043);
+exports.provider = new ethers_1.ethers.JsonRpcProvider(process.env.SEPOLIA_RPC_URL, 11155111);
+exports.dataVaultContract = new ethers_1.ethers.Contract(process.env.DATA_VAULT_ADDRESS || "", dataVaultAbi, exports.provider);
+exports.postRegistryContract = new ethers_1.ethers.Contract(process.env.POST_REGISTRY_ADDRESS || "", postRegistryAbi, exports.provider);
