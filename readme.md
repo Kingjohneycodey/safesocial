@@ -3,6 +3,14 @@ A decentralized social platform for secure content sharing and monetization.
 
 SafeSocial is a comprehensive Web3 platform that empowers creators to share, monetize, and control their content with complete privacy and security. Built on blockchain technology, it ensures encrypted storage, pay-to-access content, and direct wallet-based authentication—no middlemen, no data exploitation.
 
+
+## 🔗 Important Links
+•⁠  ⁠📹 Demo Video: Watch our demo video
+•⁠  ⁠🌐 Live Application: View the deployed app on Vercel
+•⁠  ⁠📊 Presentation Slides: https://tinyurl.com/27kmu7up
+
+
+
 ## 🌟 Key Features
 - 🔐 **Total Security:** Content encrypted and stored on blockchain
 - 💰 **Direct Payments:** Instant, secure payments with no middlemen
