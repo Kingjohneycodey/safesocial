@@ -6,7 +6,7 @@ SafeSocial is a comprehensive Web3 platform that empowers creators to share, mon
 
 ## 🔗 Important Links
 •⁠  ⁠📹 Demo Video: Watch our demo video
-•⁠  ⁠🌐 Live Application: [(https://safesocial-demo.vercel.app)]
+•⁠  ⁠🌐 Live Application: (https://safesocial-demo.vercel.app)
 •⁠  ⁠📊 Presentation Slides: https://tinyurl.com/27kmu7up
 
 
